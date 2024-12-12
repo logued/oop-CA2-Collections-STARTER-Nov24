@@ -5,7 +5,7 @@ package org.example;
  *  Class Group:
  */
 
-public class Question6      // Flight take-off (Queue)
+public class Question06      // Flight take-off (Queue)
 {
 
     public static void main(String[] args)

@@ -1,13 +1,12 @@
 package org.example;
 
 import java.io.FileNotFoundException;
-import java.util.Scanner;
 
 /**
  *  Name:
  *  Class Group:
  */
-public class Question3  {   //Nested HTML (Stack)
+public class Question03 {   //Nested HTML (Stack)
 
     /*
 filename: name of the file to test.

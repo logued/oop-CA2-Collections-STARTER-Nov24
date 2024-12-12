@@ -1,40 +1,40 @@
 package org.example;
 
-import java.util.Scanner;
+import java.util.*;
 /**
  *  Name:
  *  Class Group:
  */
-public class Question7  // Shares Tax Calculations (Queue)
+public class Question08  // Multi-company (Queue)
 {
-
     /*
-    Will repeatedly ask the user to enter the commands in the format
-    buy qty price
-    or
-    sell qty price
-    or
-    quit
-     */
+   Will repeatedly ask the user to enter the commands in the format
+   buy company qty price
+   or
+   sell company qty price
+   or
+   quit
+    */
     public static void main(String[] args) {
 
-       Scanner in = new Scanner(System.in);
+        Scanner in = new Scanner(System.in);
         String command="";
-            do {
+        do {
             System.out.print(">");
             command = in.next();
             if(command.equalsIgnoreCase("buy"))
             {
+                String company = in.next();
                 int qty = in.nextInt();
                 double price = in.nextDouble();
-
+                // Code to buy shares here
             }
             else if(command.equals("sell"))
             {
+                String company = in.next();
                 int qty = in.nextInt();
                 double price = in.nextDouble();
-
-
+                // Code to sell shares and calculate profit here
             }
         }while(!command.equalsIgnoreCase("quit"));
     }

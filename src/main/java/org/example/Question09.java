@@ -5,7 +5,7 @@ import java.util.Scanner;
  *  Name:
  *  Class Group:
  */
-public class Question9 {
+public class Question09 {
 
     /*
         Reads in an equation from the user

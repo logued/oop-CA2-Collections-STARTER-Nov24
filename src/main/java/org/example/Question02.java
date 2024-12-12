@@ -4,7 +4,7 @@ package org.example;
  *  Name:
  *  Class Group:
  */
-public class Question2  // Car Parking - Stack
+public class Question02  // Car Parking - Stack
 {
     public static void runSimulation()
     {

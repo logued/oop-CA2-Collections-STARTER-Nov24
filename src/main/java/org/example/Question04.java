@@ -1,14 +1,11 @@
 package org.example;
 
-import java.io.FileNotFoundException;
-import java.util.Scanner;
-
 /**
  * Name:
  * Class Group:
  */
 
-public class Question4  // Flood Fill (Stack, 2D Array)
+public class Question04  // Flood Fill (Stack, 2D Array)
 {
     static final int ROWS = 5;
     static final int COLUMNS = 5;
